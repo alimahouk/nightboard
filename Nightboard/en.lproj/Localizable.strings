@@ -1,0 +1,227 @@
+/* 
+  Localizable.strings
+  Nightboard
+
+  Created by MachOSX on 2/7/15.
+  Copyright (c) 2015 Scapehouse. All rights reserved.
+*/
+
+// Generic
+"SH_SIGNATURE" = "by Scapehouse.";
+"GENERIC_OK" = "Okay";
+"GENERIC_DONE" = "Done";
+"GENERIC_SAVE" = "Save";
+"GENERIC_POST" = "Post";
+"GENERIC_CREATE" = "Create";
+"GENERIC_EDIT" = "Edit";
+"GENERIC_COPY" = "Copy";
+"GENERIC_DELETE" = "Delete";
+"GENERIC_USE" = "Use";
+"GENERIC_NEXT" = "Next";
+"GENERIC_FORWARD" = "Forward";
+"GENERIC_BACK" = "Back";
+"GENERIC_SEARCH" = "Search";
+"GENERIC_CONFIRM" = "Confirm";
+"GENERIC_CANCEL" = "Cancel";
+"GENERIC_LOADING" = "loading…";
+"GENERIC_OPEN_IN" = "open in…";
+"GENERIC_ALERT" = "Alert!";
+"GENERIC_WARNING" = "Warning!";
+"GENERIC_TITLE_ERROR" = "Error!";
+"GENERIC_PLACEHOLDER_SEARCH" = "Search";
+"GENERIC_TRY_AGAIN" = "Try Again";
+"GENERIC_PHOTO_CAMERA" = "Camera";
+"GENERIC_PHOTO_CAMERA_VERBOSE" = "Photo From Camera";
+"GENERIC_PHOTO_LIBRARY" = "Library";
+"GENERIC_PHOTO_LIBRARY_VERBOSE" = "Photo From Library";
+"GENERIC_PHOTO_LAST_TAKEN" = "Use Last Photo Taken";
+"GENERIC_PHOTO_REMOVE" = "Remove Photo";
+"GENERIC_HUD_NETWORK_RESPONSE_ERROR" = "an error occured! :(";
+"GENERIC_HUD_NETWORK_ERROR" = "oops! :(";
+"GENERIC_NETWORK_ERROR_TITLE" = "network error.";
+"GENERIC_NETWORK_ERROR_MESSAGE" = "The server could not be reached at this time. Check your connection.";
+"GENERIC_RATE_TITLE" = "rate Nightboard.";
+"GENERIC_RATE_MESSAGE" = "Hope you're enjoying Nightboard! Care to take a minute to rate it on the App Store? :)";
+"GENERIC_RATE_CONFIRM" = "Rate";
+"GENERIC_RATE_DISMISS" = "No, Thanks";
+"NETWORK_CONNECTION_STATUS_CONNECTED" = "connected!";
+"NETWORK_CONNECTION_STATUS_CONNECTING" = "connecting...";
+"NETWORK_CONNECTION_STATUS_OFFLINE" = "offline.";
+
+// Login
+"LOGIN_TITLE" = "Welcome";
+"LOGIN_WELCOME" = "Nightboard is a directory that uses your Bluetooth to connect you with the people around you.";
+"LOGIN_EMAIL_PLACEHOLDER" = "your email address.";
+"LOGIN_USAGE_INSTRUCTIONS" = "1) Make sure your Bluetooth is on.\n\n2) Nightboard continues to discover people even when you're not using it, BUT you need to leave it running in the background!";
+
+// Signup
+"SIGNUP_TITLE" = "Join";
+"SIGNUP_DP_SHEET_TITLE" = "add a display picture!";
+"SIGNUP_WELCOME" = "Hmmm! Looks like this is the first time you're using Nightboard. What's your name?";
+"SIGNUP_PLACEHOLDER_NAME" = "full name.";
+"SIGNUP_ERROR_EMAIL" = "No email entered!";
+"SIGNUP_ERROR_LENGTH_NAME" = "Your last name is too long!";
+"SIGNUP_ERROR_DP" = "You need to have a display picture!";
+"SIGNUP_ERROR_SIGNUP_HALT" = "Signups have temporarily been halted due to very high pressure on our servers. Check back later!";
+
+// Main Menu
+"MINI_FEED_TITLE" = "mini feed.";
+"OPTION_DELETE_STATUS" = "Delete Status";
+"OPTION_MUTE_UPDATES" = "Mute Updates";
+"OPTION_UNMUTE_UPDATES" = "Unmute Updates";
+"ALERT_NEW_PEER" = "New people discovered. Refresh to view.";
+"ALERT_STATUS_UNDELETABLE" = "This status can't be deleted!";
+"ALERT_DELETING_LAST_STATUS" = "This status can't be deleted because it's your only status! You need to always have at least one status.";
+"TABLE_REFRESH_LABEL_TRIGGERED" = "now, let go!";
+"TABLE_REFRESH_LABEL_NORMAL" = "pull to refresh...";
+"TABLE_REFRESH_LABEL_LOADING" = "loading...";
+
+// Cloud
+"CHAT_CLOUD_PLACEHOLDER_SEARCH" = "Cloud Search";
+"CHAT_CLOUD_LOADING" = "loading Cloud...";
+"CHAT_CLOUD_EMPTY" = "no contacts yet.";
+"CHAT_CLOUD_ERROR_GENERIC" = "an error occured. :(";
+"CHAT_CLOUD_TITLE_USER_NOT_FOUND" = "Not Found!";
+"CHAT_CLOUD_USER_NOT_FOUND" = "Nobody with that username exists.";
+
+// Chat Bubbles
+"OPTION_CALL_CONTACT" = "Call";
+"OPTION_VIEW_PROFILE" = "View Profile";
+"OPTION_CHANGE_CONTACT_PICTURE_ADD" = "Change Picture";
+"OPTION_CHANGE_CONTACT_PICTURE_REMOVE" = "Remove Picture";
+"OPTION_RENAME_CONTACT" = "Rename";
+"OPTION_ADD_CONTACT" = "Add to Contacts";
+"OPTION_REMOVE_CONTACT_RECOMMENDATION" = "Hide";
+"OPTION_DELETE_CONTACT" = "Remove Contact";
+"OPTION_BLOCK_CONTACT" = "Block";
+"OPTION_UNBLOCK_CONTACT" = "Unblock";
+"CONFIRMATION_DELETE_CONTACT" = "Are you sure you want to remove %1$@ from your Nightboard contacts?";
+
+// Contact Info View
+"CONTACT_INFO_TITLE" = "Contact Info";
+"CONTACT_INFO_NOT_FOUND" = "contact not found.";
+
+// Profile View
+"PROFILE_CURRENT_USER" = "that's you!";
+"PROFILE_ADD_USER" = "+ Add to Contacts";
+"PROFILE_REMOVE_USER" = "Remove Contact";
+"PROFILE_ACCEPT_REQUEST" = "Accept Request";
+"PROFILE_DECLINE_REQUEST" = "Decline";
+"PROFILE_REQUEST_ACCEPTED" = "Request Accepted";
+"PROFILE_REQUEST_DECLINED" = "Request Declined";
+"PROFILE_STATS_FOLLOWING" = "%1$@ added.";
+"PROFILE_STATS_FOLLOWERS" = "added by.";
+"PROFILE_HAS_USER_AS_CONTACT" = "has you as a contact!";
+"PROFILE_JOIN_DATE" = "you joined on %1$@.";
+"PROFILE_CALL_ERROR" = "Your device can't make calls.";
+
+// Status View
+"STATUS_TITLE" = "Update Status";
+"HELP_ADD_TEMPLATE" = "Drop here to add to templates.";
+"ALERT_NO_SONG" = "There's no song currently playing.";
+"ALERT_DUPLICATE_STATUS" = "💭 Wait! This status update looks exactly like your last one!";
+
+// Board Creator
+"CREATE_BOARD_TITLE" = "Create Board";
+"CREATE_BOARD_PLACEHOLDER" = "board name.";
+"CREATE_BOARD_OPEN" = "open.";
+"CREATE_BOARD_CLOSED" = "closed.";
+"CREATE_BOARD_MAIN_EXPLANATION" = "A board is a place where many people can post stuff about a particular topic. Whenever someone discovers you, they'll be able to join this board. Others can then also join thru them.";
+"CREATE_BOARD_OPEN_EXPLANATION" = "Anybody can join an open board once they discover it.";
+"CREATE_BOARD_CLOSED_EXPLANATION" = "Posts are hidden from non-members. People will need to be approved by existing members before joining.";
+
+// Board View
+"BOARD_EMPTY" = "👻 no posts yet.";
+"BOARD_PRIVATE" = "🔒 this is a private board.";
+"BOARD_POST" = "Add Post";
+"BOARD_JOIN" = "Join Board";
+"BOARD_REQUEST" = "Request to Join";
+"BOARD_LEAVE" = "Leave Board";
+"BOARD_REQUEST_SENT" = "Request Sent";
+
+// Board Details View
+"BOARD_DETAILS_TITLE" = "Board Details";
+"BOARD_DETAILS_NAME" = "name.";
+"BOARD_DETAILS_DESCRIPTION" = "description.";
+"BOARD_ADD_COVER" = "Add Cover Photo";
+"BOARD_CHANGE_COVER" = "Change Cover Photo";
+"BOARD_REMOVE_COVER" = "Remove Cover Photo";
+"BOARD_DETAILS_LEAVE_CONFIRMATION" = "are you sure you want to leave?";
+"BOARD_DETAILS_COVER_SHEET_TITLE" = "add a cover photo!";
+"BOARD_DETAILS_ERROR_NAME" = "the board name can't be blank!";
+
+// Board Post Composer
+"BOARD_POST_COMPOSER_TITLE" = "New Post";
+"BOARD_POST_COMPOSER_LENGTH_ERROR_TITLE" = "whoa!";
+"BOARD_POST_COMPOSER_LENGTH_ERROR" = "this post is too long!";
+
+// Board Post View
+"BOARD_POST_TITLE" = "Board Post";
+"BOARD_POST_DELETE_CONFIRMATION" = "are you sure you want to delete this post?";
+
+// Web Browser View
+"OPTION_OPEN_SAFARI" = "Open in Safari";
+"OPTION_OPEN_GOOGLE_CHROME" = "Open in Chrome";
+"OPTION_COPY_LINK" = "Copy Link";
+
+// Settings View
+"SETTINGS_TITLE_MAIN" = "Settings";
+"SETTINGS_TITLE_ACCOUNT" = "Account";
+"SETTINGS_TITLE_PROFILE" = "Profile";
+"SETTINGS_TITLE_PRIVACY" = "Privacy";
+"SETTINGS_TITLE_TOS" = "Terms";
+"SETTINGS_INVITATION_SUBJECT" = "Nightboard for iPhone.";
+"SETTINGS_INVITATION_BODY" = "Nightboard uses your Bluetooth to connect you with the people around you.";
+"SETTINGS_SIGNATURE" = "❤ Nightboard %1$@";
+"SETTINGS_OPTION_INVITE" = "Invite Friends";
+"SETTINGS_OPTION_ACCOUNT" = "Account";
+"SETTINGS_OPTION_PROFILE" = "Profile";
+"SETTINGS_OPTION_PRIVACY" = "Privacy Policy";
+"SETTINGS_OPTION_TOS" = "Terms & Conditions";
+"SETTINGS_OPTION_BLUETOOTH" = "Use Bluetooth";
+"SETTINGS_OPTION_CHANGE_NUMBER" = "Change Email Address";
+"SETTINGS_OPTION_BLOCKLIST" = "Blocklist";
+"SETTINGS_OPTION_ADD_USERNAME" = "Add Contact By Username";
+"SETTINGS_OPTION_LOGOUT" = "Logout";
+"SETTINGS_OPTION_LOG_OUT" = "Log Out";
+"SETTINGS_OPTION_HQ_UPLOADS" = "High-Quality Uploads";
+"SETTINGS_OPTION_VIBRATE" = "In-App Vibration";
+"SETTINGS_OPTION_SOUNDS" = "In-App Sounds";
+"SETTINGS_OPTION_LAST_SEEN" = "Last Seen Timestamp";
+"SETTINGS_DESCRIPTION_BLUETOOTH" = "you can't discover anyone without Bluetooth!";
+"SETTINGS_DESCRIPTION_LAST_SEEN" = "If you turn this off, you won't be able to see the last time your contacts came online.";
+
+// Profile Editor
+"PROFILE_EDITOR_NAME" = "full name.";
+"PROFILE_EDITOR_LAST_NAME" = "last name.";
+"PROFILE_EDITOR_USER_HANDLE" = "username.";
+"PROFILE_EDITOR_BIO" = "bio.";
+"PROFILE_EDITOR_WEBSITE" = "website.";
+"PROFILE_EDITOR_COUNTRY" = "country.";
+"PROFILE_EDITOR_STATE" = "state.";
+"PROFILE_EDITOR_CITY" = "city.";
+"PROFILE_EDITOR_GENDER" = "gender.";
+"PROFILE_EDITOR_BIRTHDAY" = "birthday.";
+"PROFILE_EDITOR_PLACEHOLDER_BIO" = "something about you.";
+"PROFILE_EDITOR_ERROR_NAME_BLANK" = "You can't leave your name blank!";
+"PROFILE_EDITOR_ERROR_NAME_SHORT" = "Don't use initials as your name.";
+"PROFILE_EDITOR_ERROR_NAME_LONG" = "Whoa! Your name is too long!";
+"PROFILE_EDITOR_ERROR_USERNAME" = "The username you entered doesn't look right…";
+"PROFILE_EDITOR_ERROR_USERNAME_LONG" = "Your username is too long!";
+"PROFILE_EDITOR_ERROR_USERNAME_EXISTS" = "The username you picked is already taken.";
+"PROFILE_EDITOR_ERROR_EMAIL_LONG" = "The email address you entered is too long!";
+"PROFILE_EDITOR_ERROR_EMAIL_INVALID" = "The email address you entered doesn't look right…";
+"PROFILE_EDITOR_ERROR_EMAIL_EXISTS" = "The email address you entered is already in use!";
+"PROFILE_EDITOR_ERROR_CITY_LONG" = "The city name you entered is too long!";
+"PROFILE_EDITOR_ERROR_BIO_LONG" = "Your bio can't be more than 140 characters.";
+"PROFILE_EDITOR_ERROR_WEBSITE_LONG" = "Your website's URL is too long!";
+
+// Standardized Units
+"UNIT_DISTANCE_FEET" = "feet";
+"UNIT_DISTANCE_KM" = "km";
+"UNIT_DISTANCE_M" = "m";
+
+// 3rd Party
+"SERVICE_APPLE_MAPS" = "Apple Maps";
+"SERVICE_GOOGLE_MAPS" = "Google Maps";
+"ATTRIBUTION_FOURSQUARE" = "powered by Foursquare.";
